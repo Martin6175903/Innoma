@@ -11,6 +11,7 @@ const shorthand = require("gulp-shorthand");
 const groupCssMediaQueries = require("gulp-group-css-media-queries");
 const sass = require("gulp-sass")(require("sass"));
 const sassGlob = require("gulp-sass-glob");
+const webpCss = require("gulp-webp-css");
 
 // Конфигурация
 const path = require("../config/path.js");
@@ -24,6 +25,7 @@ const scss = () => {
         }))
         .pipe(sassGlob())
         .pipe(sass())
+        .pipe(webpCss())
         .pipe(autoprefixer())
         .pipe(shorthand())
         .pipe(groupCssMediaQueries())
