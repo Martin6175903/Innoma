@@ -19,7 +19,7 @@ const app = require("../config/app.js");
 
 // Обработка CSS
 const scss = () => {
-    return src(path.scss.src, { sourcemaps: true })
+    return src(path.scss.src, { sourcemaps: app.isDev })
         .pipe(plumber({
             errorHandler: notify.onError()
         }))
@@ -30,11 +30,11 @@ const scss = () => {
         .pipe(shorthand())
         .pipe(groupCssMediaQueries())
         .pipe(size({ title: "main.css"} ))
-        .pipe(dest(path.scss.dest, { sourcemaps: true }))
+        .pipe(dest(path.scss.dest, { sourcemaps: app.isDev }))
         .pipe(rename({ suffix: ".min" }))
         .pipe(csso())
         .pipe(size({ title: "main.min.css"} ))
-        .pipe(dest(path.scss.dest, { sourcemaps: true }));
+        .pipe(dest(path.scss.dest, { sourcemaps: app.isDev }));
 }
 
 module.exports = scss;
