@@ -11,12 +11,12 @@ const app = require("../config/app.js");
 
 // Обработка PUG
 const pug = () => {
-    return src(path.html.src)
+    return src(path.pug.src)
         .pipe(plumber({
             errorHandler: notify.onError()
         }))
         .pipe(pugs(app.pug))
-        .pipe(dest(path.html.dest));
+        .pipe(dest(path.pug.dest));
 }
 
 module.exports = pug;
