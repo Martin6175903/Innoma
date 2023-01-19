@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/scss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/news.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/news.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/module/sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/sum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/layout/app.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/app.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/task/js.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1674070140809" duration="136000" />
       <workItem from="1674070291741" duration="1801000" />
       <workItem from="1674076960914" duration="10633000" />
-      <workItem from="1674126428616" duration="10375000" />
+      <workItem from="1674126428616" duration="11665000" />
     </task>
     <servers />
   </component>
